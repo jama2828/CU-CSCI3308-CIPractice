@@ -1,6 +1,6 @@
 language: c
 
-script: make dep && make && make test
+script: make
 
 compiler:
   -gcc
