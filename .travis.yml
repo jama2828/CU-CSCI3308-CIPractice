@@ -1,6 +1,7 @@
 language: c
 
-script: make dep && make && make test && sudo apt-get check
+script: make dep && make && make test
+script: sudo apt-get check
 
 compiler:
   -gcc
